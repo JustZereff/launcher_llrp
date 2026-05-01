@@ -2,5 +2,8 @@
   "LatestVersion": "1.0.0",
   "ServerIp": "178.253.55.233",
   "DownloadUrl": "https://google.com",
-  "IsMaintenance": false
+  "IsMaintenance": false,
+  "UseVpn": true,
+  "VpnWaitTime": 4,
+  "VpnConfig": "{ \"log\": { \"loglevel\": \"info\" }, \"inbounds\": [ { \"port\": 10809, \"protocol\": \"http\", \"settings\": { \"udp\": true }, \"sniffing\": { \"enabled\": true, \"destOverride\": [\"http\", \"tls\", \"quic\"] } } ], \"outbounds\": [ { \"tag\": \"proxy\", \"protocol\": \"vless\", \"settings\": { \"vnext\": [ { \"address\": \"95.181.174.79\", \"port\": 443, \"users\": [ { \"id\": \"bc380afb-4848-4fdf-b9ae-f6e58a365218\", \"encryption\": \"none\", \"flow\": \"xtls-rprx-vision\" } ] } ] }, \"streamSettings\": { \"network\": \"tcp\", \"security\": \"reality\", \"realitySettings\": { \"fingerprint\": \"chrome\", \"serverName\": \"github.com\", \"publicKey\": \"UMD1aaqvEHCIVNlr-Fahx3VEGk7Qr_z_42GCsMoXkE4\", \"shortId\": \"43b42950e750d0\" } } }, { \"protocol\": \"freedom\", \"tag\": \"direct\" } ], \"routing\": { \"domainStrategy\": \"IPOnDemand\", \"rules\": [ { \"type\": \"field\", \"ip\": [ \"178.253.55.233\", \"127.0.0.0/8\" ], \"outboundTag\": \"direct\" }, { \"type\": \"field\", \"domain\": [ \"domain:cfx.re\", \"domain:fivem.net\" ], \"outboundTag\": \"direct\" }, { \"type\": \"field\", \"domain\": [ \"domain:rockstargames.com\", \"domain:socialclub.rockstargames.com\", \"domain:discord.com\" ], \"outboundTag\": \"proxy\" }, { \"type\": \"field\", \"network\": \"tcp,udp\", \"outboundTag\": \"direct\" } ] } }"
 }
