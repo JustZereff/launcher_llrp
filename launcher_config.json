@@ -2,7 +2,7 @@
   "LatestVersion": "1.0.1",
   "ServerIp": "178.253.55.233",
   "DownloadUrl": "https://drive.google.com/drive/folders/1IWAACDWSevIc5Wkf12qOlwY7hT6ZPrHT",
-  "UpdateUrl": "https://github.com/JustZereff/launcher_llrp/releases/download/v1.0.1/Launcher_LLRP.exe",
+  "UpdateUrl": "https://github.com/JustZereff/launcher_llrp/releases/download/v1.0.2/launcher_update.zip",
   "IsMaintenance": false,
   "UseVpn": true,
   "VpnWaitTime": 5,
