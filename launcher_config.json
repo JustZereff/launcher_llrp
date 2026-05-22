@@ -1,7 +1,8 @@
 {
-  "LatestVersion": "1.0.0",
+  "LatestVersion": "1.0.1",
   "ServerIp": "178.253.55.233",
   "DownloadUrl": "https://drive.google.com/drive/folders/1IWAACDWSevIc5Wkf12qOlwY7hT6ZPrHT",
+  "UpdateUrl": "https://drive.google.com/file/d/1DXyPjdDYT6kSxa8Bholum8sXA5-u62_M/view?usp=sharing",
   "IsMaintenance": false,
   "UseVpn": true,
   "VpnWaitTime": 5,
